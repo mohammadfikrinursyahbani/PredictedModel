@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-# from sklearn.externals import joblib
+import joblib
 # Load the saved model
 model = joblib.load('xgb_model.pkl')
 
